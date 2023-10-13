@@ -1,4 +1,3 @@
-# import torch
 import h5py
 import os
 from tqdm import tqdm
@@ -77,7 +76,7 @@ def read_3dmad_2_video(path: str):
                 print(f'Color video is saved in {color_file}.')
 
 if __name__ == '__main__':
-    _data_path = '/Users/jaemu/Desktop/data/3DMAD'
+    _data_path = '3DMAD dataset directory on your device' 
 
     # delete_files(_data_path)
 
